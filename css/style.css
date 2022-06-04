@@ -1,0 +1,284 @@
+/* 01. Start - Styling Top Menu */
+.navbar {
+    /* The logo is 24px (1.5 rem) away from the left side */
+    padding-left: 1.5 rem;
+    /* The nav menu is 24px (1.5 rem) away from the right side */
+    padding-right: 1.5 rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 64px;
+}
+
+/* Decrease the padding right to 0, so the .navbar can get 24px (1.5rem) away from the right side */
+/* Increase padding-left to 16px (1rem) to maintain word spacing */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+/* The size of the logo font is a bit less than 32px (2 rem) */
+.colmar {
+    font-size: 1.5rem;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 800;
+}
+
+.academy {
+    color: #A0A0A0;
+    font-size: 1.5rem;
+    font-family: 'Biryani', sans-serif;
+    font-weight: 400;
+}
+
+.image-svg {
+    height: 3.125rem;
+}
+
+/* 01. End - Styling Top Menu */
+
+/* 02. Start - Styling Hero */
+/* Setting padding of the column to fix the image*/
+
+#hero-image-column {
+    padding: 2rem 1.5rem;
+}
+
+#hero-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    width: 60vw;
+}
+
+#hero-subtitle {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+#hero-info-column {
+    padding-left: 0;
+}
+
+#hero-btn {
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #hero-image-column {
+        padding: 0;
+    }
+
+    #hero-image {
+        width: 100%;
+    }
+
+    #hero-info-column {
+        padding-left: 1rem;
+    }
+
+    #hero-btn {
+        margin-bottom: 2rem;
+    }
+
+}
+
+/* 02. End - Styling Hero */
+
+/* 03. Start - Styling Articles Section */
+#articles-main-column {
+    padding: 2rem 1.5rem;
+}
+
+#articles-main-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    width: 60vw;
+}
+
+#main-article-title {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+#first-small-article-column {
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+#second-small-article-column,
+#third-small-article-column {
+    padding: 1rem;
+}
+
+#small-article-section p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#small-article-section .btn {
+    padding: 0;
+    border: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #first-small-article-column,
+    #second-small-article-column,
+    #third-small-article-column {
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    #small-article-section img {
+        width: 100%;
+    }
+
+    #small-article-section h3,
+    #small-article-section p,
+    #small-article-section .btn {
+        padding-left: 1rem;
+    }
+
+    #small-article-section h3{
+        padding-top: 1rem;
+    }
+
+    #small-article-section .btn {
+        padding-left: 1rem;
+    }
+
+    #first-small-article-row .btn,
+    #second-small-article-row .btn {
+        padding-bottom: 4rem;
+    }
+
+    #third-small-article-row .btn {
+        padding-bottom: 2rem;
+    }
+
+}
+/* 03. End - Styling Articles Section */
+
+/* 04. Start - Styling Courses Section */
+#courses-section {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+
+#courses-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#courses-section .col-sm-4 {
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.courses-card-text {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.courses-card-text h5 {
+    margin-top: 1rem;
+}
+
+.courses-card-subtitle {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.courses-card-description {
+    margin-bottom: 1.5rem;
+}
+@media only screen and (max-width: 768px) {
+
+    #courses-title {
+        margin-bottom: 1rem;
+    }
+
+    #courses-section .col-sm-4 {
+        margin-bottom: 0.5rem;
+    }
+
+    #courses-section {
+        padding-bottom: 4.5rem;
+    }
+
+    .courses-card-text h5 {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+}
+/* 04. End - Styling Courses Section */
+
+/* 05. Start - Styling Thesis Section */
+#thesis-section {
+    padding-bottom: 2rem;
+}
+
+#thesis-section-title {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+}
+
+#thesis-section-column-video {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#thesis-section-column-video h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#thesis-section-column-video p {
+    margin-bottom: 2rem;
+}
+
+#thesis-section-column-video-aside {
+    padding-left: 0;
+}
+
+#thesis-section-column-video-aside .col-4{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#thesis-section-column-video-aside .col-8{
+    padding-left: 1rem;
+}
+
+#thesis-section-column-video-aside .row{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#thesis-section-column-video-aside img{
+    width:  30vw;
+    object-fit: cover;
+}
+/* 05. End - Styling Thesis Section */
+
+/* 06. Start - Styling Footer Section */
+#footer-section .col-12{
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#footer-section p {
+    margin-bottom: 0;
+}
+/* 06. End - Styling Footer Section */
