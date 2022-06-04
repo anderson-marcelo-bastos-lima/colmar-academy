@@ -67,7 +67,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://anderson-marcelo-bastos-lima.github.io/colmar-academy/)
 
 Colmar Academy's project is the final exercise to conclude the training in building a website with HTML, CSS, and Github Pages.
 
