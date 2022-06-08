@@ -1,23 +1,47 @@
-/* 01. Start - Styling Top Menu */
+/**
+ *
+ * 01. Styling Top Menu
+ *
+ * 02. Styling Hero
+ *
+ * 03. Styling Articles Section
+ *
+ * 04. Styling Courses Section
+ *
+ * 05. Styling Thesis Section
+ *
+ * 06. Styling Footer Section
+ *
+ */
+
+
+
+
+/** 01. Start - Styling Top Menu */
+
 .navbar {
-    /* The logo is 24px (1.5 rem) away from the left side */
+    /** The logo is 24px (1.5rem) away from the left side */
     padding-left: 1.5 rem;
-    /* The nav menu is 24px (1.5 rem) away from the right side */
+    /** The nav menu is 24px (1.5rem) away from the right side */
     padding-right: 1.5 rem;
+    /** Personal decision: remove the padding to have a clear view of the box. */
     padding-top: 0;
     padding-bottom: 0;
-    height: 64px;
+    /** The top menu is 64px (4rem) tall */
+    height: 4rem;
 }
 
-/* Decrease the padding right to 0, so the .navbar can get 24px (1.5rem) away from the right side */
-/* Increase padding-left to 16px (1rem) to maintain word spacing */
 .navbar-expand-lg .navbar-nav .nav-link {
+    /** Decrease the padding right to 0, so the .navbar can get 24px (1.5rem) away from the right side */
     padding-right: 0;
+    /** Increase padding-left to 16px (1rem) to have the space between the menu links */
     padding-left: 1rem;
+    /** Aesthetic decision: increase the font size of the menu links. */
     font-size: 1.5rem;
 }
 
-/* The size of the logo font is a bit less than 32px (2 rem) */
+/** Aesthetic decision: The logo font size is slightly smaller than 32px (2 rem),
+ *  I believe 24px (1.5rem) is the correct measurement for the font. */
 .colmar {
     font-size: 1.5rem;
     font-family: 'Biryani', sans-serif;
@@ -31,15 +55,19 @@
     font-weight: 400;
 }
 
+/** Aesthetic decision: The size of the icon is slightly bigger than 32px (2 rem). */
 .image-svg {
     height: 3.125rem;
 }
 
-/* 01. End - Styling Top Menu */
+/** 01. End - Styling Top Menu */
 
-/* 02. Start - Styling Hero */
-/* Setting padding of the column to fix the image*/
 
+
+
+/** 02. Start - Styling Hero */
+
+/** The hero section image has 32px (2rem) top and bottom space and 24px(1.5rem) left and right space. */
 #hero-image-column {
     padding: 2rem 1.5rem;
 }
@@ -51,6 +79,8 @@
     width: 60vw;
 }
 
+/** The sub-title of the hero section has 32 px (2 rem) space away from the top DOM element
+ *  and 24 px (1.5 rem) away from the bottom DOM element. */
 #hero-subtitle {
     padding-top: 2rem;
     padding-bottom: 1.5rem;
@@ -89,7 +119,11 @@
 
 /* 02. End - Styling Hero */
 
+
+
+
 /* 03. Start - Styling Articles Section */
+
 #articles-main-column {
     padding: 2rem 1.5rem;
 }
@@ -143,7 +177,7 @@
         padding-left: 1rem;
     }
 
-    #small-article-section h3{
+    #small-article-section h3 {
         padding-top: 1rem;
     }
 
@@ -161,17 +195,17 @@
     }
 
 }
+
 /* 03. End - Styling Articles Section */
 
+
+
+
 /* 04. Start - Styling Courses Section */
+
 #courses-section {
     padding-left: 4.5rem;
     padding-right: 4.5rem;
-}
-
-#courses-title {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 #courses-section .col-sm-4 {
@@ -197,6 +231,7 @@
 .courses-card-description {
     margin-bottom: 1.5rem;
 }
+
 @media only screen and (max-width: 768px) {
 
     #courses-title {
@@ -208,6 +243,8 @@
     }
 
     #courses-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
         padding-bottom: 4.5rem;
     }
 
@@ -217,9 +254,14 @@
     }
 
 }
+
 /* 04. End - Styling Courses Section */
 
+
+
+
 /* 05. Start - Styling Thesis Section */
+
 #thesis-section {
     padding-bottom: 2rem;
 }
@@ -248,16 +290,16 @@
     padding-left: 0;
 }
 
-#thesis-section-column-video-aside .col-4{
+#thesis-section-column-video-aside .col-4 {
     padding-left: 0;
     padding-right: 0;
 }
 
-#thesis-section-column-video-aside .col-8{
+#thesis-section-column-video-aside .col-8 {
     padding-left: 1rem;
 }
 
-#thesis-section-column-video-aside .row{
+#thesis-section-column-video-aside .row {
     padding-top: 1rem;
     padding-left: 1rem;
     padding-bottom: 1rem;
@@ -265,14 +307,19 @@
     margin-left: 0;
 }
 
-#thesis-section-column-video-aside img{
-    width:  30vw;
+#thesis-section-column-video-aside img {
+    width: 35vw;
     object-fit: cover;
 }
+
 /* 05. End - Styling Thesis Section */
 
+
+
+
 /* 06. Start - Styling Footer Section */
-#footer-section .col-12{
+
+#footer-section .col-12 {
     padding-left: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -280,5 +327,11 @@
 
 #footer-section p {
     margin-bottom: 0;
+    font-size: 0.75rem;
 }
+
+#footer-section .nav-link {
+    font-size: 0.75rem;
+}
+
 /* 06. End - Styling Footer Section */

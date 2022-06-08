@@ -65,17 +65,20 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://anderson-marcelo-bastos-lima.github.io/colmar-academy/)
 
-Colmar Academy's project is the final exercise to conclude the training in building a website with HTML, CSS, and Github Pages.
+## 1. The Project 
+Colmar Academy's project is the final exercise to conclude the training in building a website with HTML, CSS, and Github Pages.  
+
+The site must strictly follow the spacing, margins and padding measures present in the wireframe document of the desktop and mobile versions.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-### Built With
+## 2. Built With
 * [Git](https://git-scm.com/)
 * [GitHub](https://github.com/)
 * [GitHub Pages](https://pages.github.com/)
